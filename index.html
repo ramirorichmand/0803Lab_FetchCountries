@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Document</title>
+
+    <!-- using the defer attribute on the script tag tells the browser to execute the script only after the page has finished parsing -->
+    <script src="lab.js" defer></script>
+
+</head>
+
+    <body>
+        <h1>Countries</h1>
+
+            <!-- Creating an HTML form which allows to input name of country which is used to "filter information on front-end submit" -->
+
+            <form action="">
+                <label for="country_name">Country name:</label>
+                <input type="text" id="country_name" name="country_name">
+                <input type="submit" value="Submit">
+            </form>
+
+        <section id ="countries"></section>
+
+    </body>
+
+</html>
