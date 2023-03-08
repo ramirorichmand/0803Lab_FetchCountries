@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Document</title>
 
-    <!-- using the defer attribute on the script tag tells the browser to execute the script only after the page has finished parsing -->
+    <!-- using the defer attribute on the script tag tells the browser 
+        to execute the script only after the page has finished parsing -->
     <script src="lab.js" defer></script>
 
 </head>
@@ -16,13 +17,19 @@
 
             <!-- Creating an HTML form which allows to input name of country which is used to "filter information on front-end submit" -->
 
+            <!-- Add a form element for searching a country by name -->
+
             <form action="">
                 <label for="country_name">Country name:</label>
                 <input type="text" id="country_name" name="country_name">
                 <input type="submit" value="Submit">
             </form>
-
+        
+        <!-- Add a section element for displaying the search results -->
         <section id ="countries"></section>
+
+        <!-- Add a section element for displaying all countries -->
+       <!-- <section id ="all_countries"></section> -->
 
     </body>
 
