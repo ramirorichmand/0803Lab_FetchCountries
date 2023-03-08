@@ -1,10 +1,9 @@
 # 08/03/23 Lab Fetch Countries
 
-Using an external API, I constructed a front-end app which populates a page with dynamic information. We're talking fetch() requests, we're talking DOM manipulation and we're talking user input.
+Using an external API, I constructed a front-end app which populates a page with dynamic information. We're talking **`fetch()` requests**, we're talking **DOM manipulation** and we're talking **user input**.
+
 
 We've explored the fundamentals of JavaScript and had a refresher of HTML and CSS. Now that we're familiar with the DOM, let's take this a step further and attempt to bring all our learning together.
-
-Using an external API, let's begin constructing a front-end app which populates a page with dynamic information. We're talking **`fetch()` requests**, we're talking **DOM manipulation** and we're talking **user input**.
 
 ## Set-Up 🎯
 
