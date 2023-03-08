@@ -26,6 +26,7 @@ const getCountryByName = (countryName) => {
         section.appendChild(population);
     })
     
+    //  the `catch() block` is used to handle any errors that may occur during the execution of the `Promise`
     .catch(function(error) {
         console.log(error);
     });
