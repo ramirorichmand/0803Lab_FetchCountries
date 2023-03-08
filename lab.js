@@ -9,7 +9,7 @@ const getCountryByName = (countryName) => {
     // Use the fetch() method to make a request to the REST Countries API to get data on the specified country
     fetch(`https://restcountries.com/v3.1/name/${countryName}`)
 
-        // using the json method to convert response into JSON data
+        // using the JSON method to convert response into JSON data
         .then(response => response.json())
 
         // Access the first country object in the array returned by the API
